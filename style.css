@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100vh;
+}
+nav {
+    position: sticky;
+    top: 0;
+    font-size: 24px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 0%);
+    list-style-type: none;
+}
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+nav ul li a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.5s;
+}
+nav ul li a:hover {
+    background-color: hsl(330, 100%, 35%);
+}
+nav ul li:nth-child(1) div {
+    padding: 10px;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: hsl(0, 0%, 0%);
+    padding: 10px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-family: cursive;
+    font-size: 24px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    padding: 10px;
+}
+hr {
+    padding: 10px 0;
+}
+main {
+    min-height: 100vh;
+}
+.meme-container {
+    width: 100%;
+    padding: 50px 15vw;
+}
+.meme {
+    display: block;
+    box-sizing: content-box;
+    background-color: hsl(0, 0%, 0%);
+}
+.meme-container .meme img {
+    box-sizing: content-box;
+    width: 100%;
+    display: block;
+}
+.meme-container p {
+    font-size: 3rem;
+    color: hsl(35, 100%, 50%);
+    padding: 0;
+}
+.meme-text {
+    padding: 10px;
+}
