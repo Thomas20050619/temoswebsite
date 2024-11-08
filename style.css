@@ -13,7 +13,7 @@ body {
 nav {
     position: sticky;
     top: 0;
-    font-size: 24px;
+    font-size: 18px;
 }
 nav ul {
     display: flex;
@@ -71,12 +71,4 @@ main {
     box-sizing: content-box;
     width: 100%;
     display: block;
-}
-.meme-container p {
-    font-size: 3rem;
-    color: hsl(35, 100%, 50%);
-    padding: 0;
-}
-.meme-text {
-    padding: 10px;
 }
