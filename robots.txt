@@ -1,0 +1,4 @@
+Sitemap: https://thomas20050619.github.io/temoswebsite/sitemapp.xml
+
+User-agent: *
+Disallow: 
